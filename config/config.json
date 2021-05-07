@@ -1,0 +1,177 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cctv-internal-request-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cctvInternalRequest/CctvInternalRequestWebPart.js",
+          "manifest": "./src/webparts/cctvInternalRequest/CctvInternalRequestWebPart.manifest.json"
+        }
+      ]
+    },
+    "cctv-intenal-it-manager-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cctvIntenalItManager/CctvIntenalItManagerWebPart.js",
+          "manifest": "./src/webparts/cctvIntenalItManager/CctvIntenalItManagerWebPart.manifest.json"
+        }
+      ]
+    },
+    "cctv-internal-legal-mgr-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cctvInternalLegalMgr/CctvInternalLegalMgrWebPart.js",
+          "manifest": "./src/webparts/cctvInternalLegalMgr/CctvInternalLegalMgrWebPart.manifest.json"
+        }
+      ]
+    },
+    "cctv-internal-sss-action-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cctvInternalSssAction/CctvInternalSssActionWebPart.js",
+          "manifest": "./src/webparts/cctvInternalSssAction/CctvInternalSssActionWebPart.manifest.json"
+        }
+      ]
+    },
+    "cctv-internal-my-tasks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cctvInternalMyTasks/CctvInternalMyTasksWebPart.js",
+          "manifest": "./src/webparts/cctvInternalMyTasks/CctvInternalMyTasksWebPart.manifest.json"
+        }
+      ]
+    },
+    "view-workflow-history-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/viewWorkflowHistory/ViewWorkflowHistoryWebPart.js",
+          "manifest": "./src/webparts/viewWorkflowHistory/ViewWorkflowHistoryWebPart.manifest.json"
+        }
+      ]
+    },
+    "cctv-internal-all-requests-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cctvInternalAllRequests/CctvInternalAllRequestsWebPart.js",
+          "manifest": "./src/webparts/cctvInternalAllRequests/CctvInternalAllRequestsWebPart.manifest.json"
+        }
+      ]
+    },
+    "cctv-internal-legal-manager-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cctvInternalLegalManager/CctvInternalLegalManagerWebPart.js",
+          "manifest": "./src/webparts/cctvInternalLegalManager/CctvInternalLegalManagerWebPart.manifest.json"
+        }
+      ]
+    },
+    "new-request-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newRequestForm/NewRequestFormWebPart.js",
+          "manifest": "./src/webparts/newRequestForm/NewRequestFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "view-request-form-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/viewRequestFormDetails/ViewRequestFormDetailsWebPart.js",
+          "manifest": "./src/webparts/viewRequestFormDetails/ViewRequestFormDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "view-suggestion-box-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/viewSuggestionBoxDetails/ViewSuggestionBoxDetailsWebPart.js",
+          "manifest": "./src/webparts/viewSuggestionBoxDetails/ViewSuggestionBoxDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "view-cctv-internal-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/viewCctvInternalDetails/ViewCctvInternalDetailsWebPart.js",
+          "manifest": "./src/webparts/viewCctvInternalDetails/ViewCctvInternalDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "new-kpi-request-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newKpiRequest/NewKpiRequestWebPart.js",
+          "manifest": "./src/webparts/newKpiRequest/NewKpiRequestWebPart.manifest.json"
+        }
+      ]
+    },
+    "view-kpi-request-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/viewKpiRequest/ViewKpiRequestWebPart.js",
+          "manifest": "./src/webparts/viewKpiRequest/ViewKpiRequestWebPart.manifest.json"
+        }
+      ]
+    },
+    "new-attendance-request-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newAttendanceRequest/NewAttendanceRequestWebPart.js",
+          "manifest": "./src/webparts/newAttendanceRequest/NewAttendanceRequestWebPart.manifest.json"
+        }
+      ]
+    },
+    "view-attendance-request-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/viewAttendanceRequest/ViewAttendanceRequestWebPart.js",
+          "manifest": "./src/webparts/viewAttendanceRequest/ViewAttendanceRequestWebPart.manifest.json"
+        }
+      ]
+    },
+    "new-cctv-external-request-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newCctvExternalRequest/NewCctvExternalRequestWebPart.js",
+          "manifest": "./src/webparts/newCctvExternalRequest/NewCctvExternalRequestWebPart.manifest.json"
+        }
+      ]
+    },
+    "view-cctv-external-request-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/viewCctvExternalRequest/ViewCctvExternalRequestWebPart.js",
+          "manifest": "./src/webparts/viewCctvExternalRequest/ViewCctvExternalRequestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "sppeoplpicker": {
+      "path": "src/webparts/cctvInternalRequest/script/sp.peoplepicker.json",
+      "globalName": "sppeoplepicker"
+    }
+  },
+  "localizedResources": {
+    "CctvInternalRequestWebPartStrings": "lib/webparts/cctvInternalRequest/loc/{locale}.js",
+    "CctvIntenalItManagerWebPartStrings": "lib/webparts/cctvIntenalItManager/loc/{locale}.js",
+    "CctvInternalLegalMgrWebPartStrings": "lib/webparts/cctvInternalLegalMgr/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "CctvInternalSssActionWebPartStrings": "lib/webparts/cctvInternalSssAction/loc/{locale}.js",
+    "CctvInternalMyTasksWebPartStrings": "lib/webparts/cctvInternalMyTasks/loc/{locale}.js",
+    "ViewWorkflowHistoryWebPartStrings": "lib/webparts/viewWorkflowHistory/loc/{locale}.js",
+    "CctvInternalAllRequestsWebPartStrings": "lib/webparts/cctvInternalAllRequests/loc/{locale}.js",
+    "CctvInternalLegalManagerWebPartStrings": "lib/webparts/cctvInternalLegalManager/loc/{locale}.js",
+    "NewRequestFormWebPartStrings": "lib/webparts/newRequestForm/loc/{locale}.js",
+    "ViewRequestFormDetailsWebPartStrings": "lib/webparts/viewRequestFormDetails/loc/{locale}.js",
+    "ViewSuggestionBoxDetailsWebPartStrings": "lib/webparts/viewSuggestionBoxDetails/loc/{locale}.js",
+    "ViewCctvInternalDetailsWebPartStrings": "lib/webparts/viewCctvInternalDetails/loc/{locale}.js",
+    "NewKpiRequestWebPartStrings": "lib/webparts/newKpiRequest/loc/{locale}.js",
+    "ViewKpiRequestWebPartStrings": "lib/webparts/viewKpiRequest/loc/{locale}.js",
+    "NewAttendanceRequestWebPartStrings": "lib/webparts/newAttendanceRequest/loc/{locale}.js",
+    "ViewAttendanceRequestWebPartStrings": "lib/webparts/viewAttendanceRequest/loc/{locale}.js",
+    "NewCctvExternalRequestWebPartStrings": "lib/webparts/newCctvExternalRequest/loc/{locale}.js",
+    "ViewCctvExternalRequestWebPartStrings": "lib/webparts/viewCctvExternalRequest/loc/{locale}.js"
+  }
+}
