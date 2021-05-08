@@ -650,6 +650,9 @@ export default class ViewRequestFormDetailsWebPart extends BaseClientSideWebPart
                 if(isdoesmeetCriteria=="Yes"){
                   $('#chk_DoesMeetCriteria').prop("checked",true);
                 }
+                if(parseInt(item.BudgetAmount)>500){
+                  $("#chk_req_bud_exceed").prop("checked",true);
+                }
               }
               else{
                   $('#btnSubmit').hide();
@@ -2898,6 +2901,12 @@ private UpdateMediaCTItem(){
          }
          else{
           $("#txtSocialMediaBudgetAmount").next("span").text(" ");
+         }
+
+         if(Number($("#txtSocialMediaBudgetAmount").val())==NaN)
+         {
+          $("#txtSocialMediaBudgetAmount").next("span").text("Budget amount must be number");
+          designResult=false; 
          }
 
          if($("#txtQuantity").val()==""){

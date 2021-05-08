@@ -14,7 +14,7 @@
   "dependencies": {
     "@microsoft/sp-core-library": "1.11.0",
     "@microsoft/sp-lodash-subset": "1.11.0",
-    "@microsoft/sp-office-ui-fabric-core": "1.11.0",
+    "@microsoft/sp-office-ui-fabric-core": "^1.11.0",
     "@microsoft/sp-property-pane": "1.11.0",
     "@microsoft/sp-webpart-base": "1.11.0",
     "@pnp/graph": "^2.3.0",

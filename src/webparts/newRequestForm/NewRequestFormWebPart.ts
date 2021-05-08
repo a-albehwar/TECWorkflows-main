@@ -1950,6 +1950,12 @@ private _setButtonEventHandlers(): void{
            else{
             $("#txtSocialMediaBudgetAmount").next("span").text(" ");
            }
+        
+           if(!isNaN(Number($("#txtSocialMediaBudgetAmount").val())))
+         {
+          $("#txtSocialMediaBudgetAmount").next("span").text("Budget amount must be number");
+          designResult=false; 
+         }
 
            if(desi_quantity==""){
             $("#txtQuantity").next("span").text("Quantity is mandatory");
